@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vibe Seconds</title>
+    <link rel="favicon" href="favicon/" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon//apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon//favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png" />
+    <link rel="manifest" href="favicon//site.webmanifest" />
+    <link rel="stylesheet" href="bascet.html" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- /* ========================= */ /* HEADER */ /* ========================= */ -->
+    <header>
+      <div class="header-container">
+        <div class="header-left">
+          <button class="header-button nav-icons" id="button-menu">
+            <img src="Icon/icon-menu-bar.png" alt="Menu" class="menu-icon" />
+          </button>
+          <div class="search-container">
+            <label for="main-search" class="search-bar nav-icons">
+              <img src="Icon/icon-magnifying-glass.png" alt="icon-magnifying-glass" />
+              <input type="search" id="main-search" placeholder="Search" class="main-search" />
+            </label>
+          </div>
+        </div>
+        <div class="header-center">
+          <div class="logo-container">
+            <a href="index.html">
+              <h1 class="logo">Vibe Seconds</h1>
+            </a>
+          </div>
+        </div>
+        <nav class="header-right">
+          <ul class="nav-list">
+            <li>
+              <button class="header-button nav-icons" id="contact-button">
+                <img src="Icon/icon-phone-call.png" alt="ContactUs" />
+              </button>
+            </li>
+            <li>
+              <a href="Basket.html" class="nav-icons"><img src="Icon/icon-shopping-cart.png" alt="Basket" /></a>
+            </li>
+            <li>
+              <a href="wishlist.html" class="nav-icons"><img src="Icon/icon-heart.png" alt="Wishlist" /></a>
+            </li>
+            <li>
+              <a href="signin.html" class="nav-icons"><img src="Icon/icon-avatar.png" alt="Profil" /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /* ========================= */ /* MAIN */ /* ========================= */ -->
+
+    <main>
+      <div class="bag-container">
+        <h3>Create Your Account</h3>
+        <p>Create your account to have access to a personalized experience.</p>
+        <p>Already have a MyVS account? <a href="signin.html" class="a-border">Log in here.</a></p>
+
+        <form action="registration.html">
+          <div class="reg-container">
+            <div class="reg-container-center">
+              <div class="reg-container-left">
+                <label for="input-email-reg">
+                  <p>Email*</p>
+                  <input type="email" id="input-email-reg" required />
+                </label>
+
+                <label for="input-password-reg">
+                  <p>Password*</p>
+                  <input type="password" id="input-password-reg" required />
+                </label>
+
+                <label for="input-password-reg-cnf">
+                  <p>Password Confirmation*</p>
+                  <input type="password" id="input-password-reg-cnf" required />
+                </label>
+              </div>
+              <div class="reg-container-right">
+                <label for="title-reg">
+                  <p>Title*</p>
+
+                  <select name="title" id="title-reg" required>
+                    <option value="" disabled selected></option>
+                    <option value="mr">Mr</option>
+                    <option value="mrs">Mrs</option>
+                    <option value="ms">Ms</option>
+                  </select>
+                </label>
+                <label for="first-name">
+                  <p>First Name*</p>
+                  <input type="text" id="first-name" required />
+                </label>
+                <label for="second-name">
+                  <p>Last Name*</p>
+                  <input type="text" id="second-name" required />
+                </label>
+                <label for="country-reg">
+                  <p>Country*</p>
+                  <select name="country" id="country-reg" required>
+                    <option value="county" disabled selected></option>
+                    <option value="ukr">Ukraine</option>
+                    <option value="pl">Poland</option>
+                    <option value="us">United States</option>
+                    <option value="uk">United Kingdom</option>
+                  </select>
+                </label>
+                <label for="date-birth">
+                  <p>Date of Birth</p>
+                  <input type="date" id="date-birth" />
+                </label>
+              </div>
+            </div>
+            <label for="privacy-policy">
+              <p class="small-text"><input type="checkbox" required />By subscribing, you agree to our Privacy Policy.</p>
+            </label>
+            <button class="signin" id="button-reg" type="submit">
+              <h3>Register</h3>
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <!-- /* ========================= */ /* Footer */ /* ========================= */ -->
+
+    <footer>
+      <div class="logo-container-second">
+        <a href="index.html">
+          <h1 class="logo logo2">Vibe Seconds</h1>
+        </a>
+      </div>
+
+      <button class="header-button nav-icons" id="contact-button-mobile">
+        <img src="Icon/icon-phone-call.png" alt="ContactUs" />
+      </button>
+      <div class="footer-container-mobile">
+        <div class="footer-toggle-first" role="button" tabindex="0">
+          <h3>Customer Service</h3>
+          <img src="Icon/pluse-icon.png" alt="pluse-icon" />
+        </div>
+        <div class="footer-toggle-second" role="button" tabindex="0">
+          <h3>Shopping Online</h3>
+          <img src="Icon/pluse-icon.png" alt="pluse-icon" />
+        </div>
+        <div class="footer-toggle-third" role="button" tabindex="0">
+          <h3>About Us</h3>
+          <img src="Icon/pluse-icon.png" alt="pluse-icon" />
+        </div>
+      </div>
+      <div class="footer-container">
+        <div class="footer-container-first">
+          <ul>
+            <li><h3>Services</h3></li>
+            <li><a href="index.html">FAQs</a></li>
+            <li><a href="index.html">Delivery</a></li>
+            <li><a href="index.html">Returns</a></li>
+            <li><a href="index.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-container-second">
+          <ul>
+            <li><h3>Shopping Online</h3></li>
+            <li><a href="signin.html">My Account</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="index.html">Track Order</a></li>
+            <li><a href="index.html">Privacy and Cookies</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-container-thirt">
+          <ul>
+            <li><h3>About Us</h3></li>
+            <li><a href="index.html">Careers</a></li>
+            <li><a href="index.html">Promotion Terms</a></li>
+            <li><a href="index.html">Terms and Conditions</a></li>
+            <li><a href="index.html">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="watermark">
+        <ul class="footer-left">
+          <li>© 2025 OdminCLD Compani</li>
+          <li><a href="index.html">Privacy Policy</a></li>
+          <li><a href="index.html">Sitemap</a></li>
+        </ul>
+
+        <ul class="footer-right">
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=61552203474509"><img src="Icon/facebook-icon.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="https://t.me/chibachill"><img src="Icon/telegram-icon.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/chibachill"><img src="Icon/instagram-icon.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
